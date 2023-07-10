@@ -10,6 +10,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .nav-title {
@@ -48,4 +50,24 @@ nav a {
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/*Header Related Styles*/
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 70px 80px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 480px;
+}
+.banner .profile-pic{
+    width: 450px;
 }
